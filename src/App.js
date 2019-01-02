@@ -60,10 +60,10 @@ class App extends Component {
         <div className="header">
           <ul>
             <li>
-              <a>HOME</a>{" "}
+              <a>HOME</a>
             </li>
             <li>
-              <a>ORDER PAGE</a>{" "}
+              <a>ORDER PAGE</a>
             </li>
             <li>
               <a>LOGIN</a>
@@ -76,7 +76,6 @@ class App extends Component {
           <form
             className="form"
             onSubmit={this.AddDish}
-            enctype="multipart/form-data"
           >
             <input name="name" type="text" placeholder="name" />
             <input name="price" type="text" placeholder="price" />
