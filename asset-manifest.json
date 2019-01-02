@@ -1,15 +1,15 @@
 {
-  "main.css": "/foodmenu/static/css/main.c8ad9dae.chunk.css",
-  "main.js": "/foodmenu/static/js/main.0f191001.chunk.js",
-  "main.js.map": "/foodmenu/static/js/main.0f191001.chunk.js.map",
+  "main.css": "/foodmenu/static/css/main.c5704ba9.chunk.css",
+  "main.js": "/foodmenu/static/js/main.ed3948f8.chunk.js",
+  "main.js.map": "/foodmenu/static/js/main.ed3948f8.chunk.js.map",
   "static/js/1.8ec7636e.chunk.js": "/foodmenu/static/js/1.8ec7636e.chunk.js",
   "static/js/1.8ec7636e.chunk.js.map": "/foodmenu/static/js/1.8ec7636e.chunk.js.map",
   "runtime~main.js": "/foodmenu/static/js/runtime~main.0baa93cb.js",
   "runtime~main.js.map": "/foodmenu/static/js/runtime~main.0baa93cb.js.map",
-  "static/css/main.c8ad9dae.chunk.css.map": "/foodmenu/static/css/main.c8ad9dae.chunk.css.map",
+  "static/css/main.c5704ba9.chunk.css.map": "/foodmenu/static/css/main.c5704ba9.chunk.css.map",
   "static/media/App.css": "/foodmenu/static/media/header_backgroung.1894f785.jpg",
   "static/media/burger.jpg": "/foodmenu/static/media/burger.fd01b5c4.jpg",
   "index.html": "/foodmenu/index.html",
-  "precache-manifest.c8ccf8920b5239e71d401ef4de8f7c11.js": "/foodmenu/precache-manifest.c8ccf8920b5239e71d401ef4de8f7c11.js",
+  "precache-manifest.2b17476ef4d355d3bcdd618253fdfdba.js": "/foodmenu/precache-manifest.2b17476ef4d355d3bcdd618253fdfdba.js",
   "service-worker.js": "/foodmenu/service-worker.js"
 }

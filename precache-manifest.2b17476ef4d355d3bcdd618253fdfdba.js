@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/foodmenu/static/js/runtime~main.0baa93cb.js"
   },
   {
-    "revision": "0f1910011c2897521a58",
-    "url": "/foodmenu/static/js/main.0f191001.chunk.js"
+    "revision": "ed3948f87d6042ce6edb",
+    "url": "/foodmenu/static/js/main.ed3948f8.chunk.js"
   },
   {
     "revision": "8ec7636ebbdd1185797c",
     "url": "/foodmenu/static/js/1.8ec7636e.chunk.js"
   },
   {
-    "revision": "0f1910011c2897521a58",
-    "url": "/foodmenu/static/css/main.c8ad9dae.chunk.css"
+    "revision": "ed3948f87d6042ce6edb",
+    "url": "/foodmenu/static/css/main.c5704ba9.chunk.css"
   },
   {
-    "revision": "b95df66af935d6d71b85bef15cf94b85",
+    "revision": "322c56576307a70c3ed94b7e41166a01",
     "url": "/foodmenu/index.html"
   }
 ];
