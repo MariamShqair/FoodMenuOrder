@@ -56,8 +56,8 @@ class App extends Component {
     totalPrice = or.reduce((sum, cv) => sum + cv, 0);
 
     return (
-      <div className="main">
-        <div className="header">
+      <div className="main container-fluid">
+        <div className="header container-fluid">
           <ul>
             <li>
               <a>HOME</a>
