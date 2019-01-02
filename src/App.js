@@ -9,7 +9,8 @@ class App extends Component {
       { id: 0.6537938286474382, name: "frid potato", price: 2 }
     ],
     orders: [],
-    totalPrice: 0
+    totalPrice: 0,
+    Client:{}
   };
 
   AddDish = e => {
@@ -49,11 +50,27 @@ class App extends Component {
 
     this.setState({ orders });
   };
+    handelOnSubmit = (e)=>{
+      e.preventDefault()
+      let obj = {}
+      obj[e.target.name.id] = e.target.name.value
+    
+      this.setState({Client:obj})
+    }
+    handelOnChange = (e)=>{
+      e.preventDefault()
+      let obj = {}
+      obj[e.target.id] = e.target.value
+    
+      this.setState({Client:obj})
+    }
 
   render() {
+
     let { totalPrice, orders } = this.state;
     const or = orders.map(v => v.price);
     totalPrice = or.reduce((sum, cv) => sum + cv, 0);
+    console.log(this.state.Client)
 
     return (
       <div className="main container-fluid">
@@ -123,6 +140,19 @@ class App extends Component {
               </div>
             ))}
             <h3>{totalPrice}</h3>
+            <div>
+
+                  <form
+                className="form"
+                onSubmit={this.handelOnSubmit}
+              >
+                <input name="name" type="text" id="name" placeholder="name" onChange={e => this.handelOnChange(e)} />
+                <input name="address" type="text" id="price" placeholder="address" onChange={e => this.handelOnChange(e)}/>
+                <input name="phone" type="text" id="phone" placeholder="phone" onChange={e => this.handelOnChange(e)}/>
+
+                <button type="submit">Submit</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
